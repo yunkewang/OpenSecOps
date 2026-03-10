@@ -154,11 +154,11 @@ def make_styles() -> dict:
             alignment=TA_CENTER, leading=40,
         ),
         "Subtitle": ParagraphStyle(
-            "Subtitle", fontSize=14, textColor=SILVER,
+            "Subtitle", fontSize=14, textColor=SLATE,
             fontName="Helvetica", alignment=TA_CENTER, leading=20,
         ),
         "CoverMeta": ParagraphStyle(
-            "CoverMeta", fontSize=10, textColor=SILVER,
+            "CoverMeta", fontSize=10, textColor=SLATE,
             fontName="Helvetica", alignment=TA_CENTER, leading=16,
         ),
         "Heading1": ParagraphStyle(
@@ -298,7 +298,7 @@ def cover_page() -> list:
             "OpenSecOps standardises security response actions across CrowdStrike Falcon, "
             "Microsoft Defender, Splunk SOAR, and custom tools — providing a unified schema, "
             "action catalog, playbook engine, and CLI.",
-            ParagraphStyle("CoverDesc", fontSize=11, textColor=SILVER,
+            ParagraphStyle("CoverDesc", fontSize=11, textColor=SLATE,
                            fontName="Helvetica", alignment=TA_CENTER, leading=17),
         ),
         NextPageTemplate("content"),

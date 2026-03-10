@@ -6,7 +6,12 @@
       "Bash(python3:*)",
       "Bash(python3.12:*)",
       "Bash(git config:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh pr:*)",
+      "Bash(pandoc:*)",
+      "Bash(apt-get list:*)",
+      "Bash(pip3 install:*)"
     ]
   }
 }
